@@ -1,0 +1,25 @@
+{
+    "declarative_table": {
+        "column": {
+            "id_column": true,
+            "severity": true,
+            "title": true,
+            "time_occurred": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "new_declarative_table": {
+        "column": {
+            "id_column": true,
+            "severity": true,
+            "title": true,
+            "time_occurred": true,
+            "date_closed": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

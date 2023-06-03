@@ -1,4 +1,21 @@
 
+Extension attribute.
+
+Now we can use extension attribute.
+
+$extensionAttributes->setPoNumber($acmeSalesOrder->getData('po_number');
+
+Now, we are able to use the following line in any other custom code as you
+wish, and the related PO Number will always be returned.
+
+$order->getExtensionAttributes()->getPoNumber();
+
+
+
+
+
+
+
 <p align="center">
 <a href="https://www.codetriage.com/magento/magento2"><img src="https://www.codetriage.com/magento/magento2/badges/users.svg" alt="Open Source Helpers" /></a>
 <a href="https://gitter.im/magento/magento2?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter" /></a> <a href="https://crowdin.com/project/magento-2"><img src="https://d322cqt584bo4o.cloudfront.net/magento-2/localized.svg" alt="Crowdin" /></a><br/>
